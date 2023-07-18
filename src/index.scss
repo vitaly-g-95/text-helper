@@ -1,0 +1,22 @@
+@import '~bootstrap/scss/bootstrap-reboot';
+
+body {
+  background: #ededed;
+  font-family: 'Inter', sans-serif;
+}
+
+.container {
+  width: 312px;
+  padding: 0 16px;
+  margin: 64px auto;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  background: #F9F5FF;
+  border-radius: 16px;
+  text-align: center;
+  color: #6941C6;
+  font-weight: 500;
+}

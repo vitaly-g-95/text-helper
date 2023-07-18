@@ -1,0 +1,30 @@
+.tip {
+  font-size: 12px;
+  line-height: 20px;
+
+  &__header {
+    margin-bottom: 8px;
+    line-height: 18px;
+  }
+
+  &__body {
+    padding-left: 6px;
+    margin-bottom: 8px;
+    font-weight: 500;
+  }
+
+  &__footer {
+    padding-left: 6px;
+    color: #475467;
+
+    .badge {
+      padding: 2px 4px;
+      border: 1px solid #F2F4F7;
+      background: #F9FAFB;
+      border-radius: 4px;
+      color: inherit;
+      font-size: 14px;
+      font-weight: inherit;
+    }
+  }
+}

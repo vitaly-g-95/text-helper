@@ -1,0 +1,80 @@
+.text-dropdown {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03), 0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+  border-radius: 12px;
+  color: #101828;
+
+  &__input-container {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    border-bottom: 1px solid #EAECF0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__logo {
+    margin-right: 10px;
+  }
+
+  &__prefix {
+    white-space: nowrap;
+  }
+
+  &__input {
+    flex: 1 0 0%;
+    padding: 0;
+    border: 0;
+    outline: 0;
+  }
+
+  &__hint {
+    padding: 12px 18px 4px;
+    color: #475467;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  &__items {
+    overflow-y: auto;
+    max-height: 340px;
+    padding: 0 8px 12px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 6px 8px 6px 10px;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+
+    &:not(:last-child) {
+      margin-bottom: 4px;
+    }
+
+    &:hover,
+    &:focus {
+      background: #F4F6F8;
+    }
+  }
+
+  &__item-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+  }
+
+  &__tip {
+    padding: 18px;
+    border-top: 1px solid #EAECF0;
+  }
+}
